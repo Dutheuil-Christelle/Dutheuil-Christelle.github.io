@@ -1,0 +1,33 @@
+body {
+    background-color: #f1f1f1;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+h5 {
+    line-height: 28px;
+}
+
+hr {
+    background-color: blue;
+    width: 80px;
+    height: 2px;
+    border: 0;
+    margin-top: 8px;
+}
+
+.sectionCabinet, .sectionAdresse {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.sectionAdresse a, .sectionAdresse a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+.sectionAdresse a:hover {
+    font-style: italic;
+    font-weight: bold;
+}
